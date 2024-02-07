@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/hub/all.css">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css">
+    <title>Arfax-Hub</title>
+</head>
+<body>
+    <header>
+        <div class="header-title">
+            <img src="../imagens/Login.png" alt="">
+            <h2>Arfaz-Hub</h2>
+        </div>
+        <div class="header-login">
+            <a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="../index.html"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+        </div>
+    </header>
+    
+    <div class="flex-dashborad">
+        <sidebar>
+            <div class="sidebar-menu">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <a href="dashboard.html"></i>Dashboard</a>
+                    </li>
+                    <li class="vendas">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <a href="#">Vendas</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="subvendas">
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="vendas.html">Pedidos</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Expedição</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Envios</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="catalogo">
+                        <i class="fa-solid fa-tablet-button"></i>
+                        <a href="#">Catalogo</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="subcatalogo">
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="catalogo.html">Produtos</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Anúncios ML</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Anúncios Skyhub</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Atributos</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-slack"></i>
+                        <a href="integracoes.html">Integrações</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <a href="insights.html">Insights</a>
+                    </li>
+                    <li class="relatorios">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <a href="#">Relatórios</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="subrelatorios">
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="relatorios.html">Lucratividade</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Notas Fiscais</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Anúncios</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="config">
+                        <i class="fa-solid fa-gear"></i>
+                        <a href="#">Configurações</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="subconfig">
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="configuracoes.html">Geral</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Usuarios</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Lojas</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Nota Fiscal</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Transportadora</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Templetes</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="monitoramento">
+                        <i class="fa-solid fa-eye"></i>
+                        <a href="#">Monitoramento</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="submonitoramento">
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="monitoramento.html">Carga</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Log</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-caret-right"></i>
+                                <a href="#">Problemas Criticos</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </sidebar>
+        
+        <main>
+            <div class="main-content-Catalogo">
+                <div class="title-main">
+                    <h3>Catalogo de Produtos</h3>
+                </div>
+                <div class="crudcatalogo">
+                    <button class="btncatalogo" type="button"  aria-label="Adicionar";>
+                        <i class="fa-solid fa-plus"></i>
+                        <a class="textbtnadicionar"href="addprodutos.html">Adicionar</a>
+                    </button>
+                    <button class="btncatalogo" type="button"  aria-label="Adicionar";>
+                        <i class="fa-solid fa-trash"></i>
+                        <span class="textbtnadicionar">Excluir</span>
+                    </button>
+                    <button class="btncatalogo" type="button"  aria-label="Adicionar";>
+                        <i class="fa-regular fa-file-excel"></i>
+                        <span class="textbtnadicionar">Exportar Excel</span>
+                    </button>
+                    <button class="btncatalogo" type="button"  aria-label="Adicionar";>
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <span class="textbtnadicionar">Atualizar</span>
+                    </button>
+                    <button class="btncatalogo" type="button"  aria-label="Adicionar";>
+                        <i class="fa-solid fa-eraser"></i>
+                        <span class="textbtnadicionar">Limpar Filtros</span>
+                    </button>
+                    <button class="btncatalogo" type="button"  aria-label="Adicionar";>
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <span class="textbtnadicionar">Criar Anúncios</span>
+                    </button>
+                    <button class="btncatalogo" type="button"  aria-label="Adicionar";>
+                        <i class="fa-regular fa-paper-plane"></i>
+                        <span class="textbtnadicionar">Publicar</span>
+                    </button>
+                    <button class="btncatalogo" type="button"  aria-label="Adicionar";>
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <span class="textbtnadicionar">Ativar Sincronização</span>
+                    </button>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <button class="btn btn-sm btn-outline-secondary" type="button">Pesquisar</button>
+                    </form>
+                </div>
+
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Imagem</th>
+                        <th scope="col">Plataformas</th>
+                        <th scope="col">SKU</th>
+                        <th scope="col">Tipo</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Marca</th>
+                        <th scope="col">Preço</th>
+                        <th scope="col">Qtd</th>
+                        <th scope="col">Criado em</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Shopee</td>
+                        <td>1320</td>
+                        <td>Simples</td>
+                        <td>Tapete Tatame EVA Para Atividades Infantis 9 Pçs Liso Color</td>
+                        <td>EVA</td>
+                        <td>R$39,90</td>
+                        <td>50</td>
+                        <td>17/01/2023</td>
+                      </tr>
+                      <th scope="row">2</th>
+                      <td>Mark</td>
+                      <td>Shopee</td>
+                      <td>1320</td>
+                      <td>Simples</td>
+                      <td>Tapete Tatame EVA Para Atividades Infantis 9 Pçs Liso Color</td>
+                      <td>EVA</td>
+                      <td>R$39,90</td>
+                      <td>50</td>
+                      <td>17/01/2023</td>
+                    </tr>
+                    <th scope="row">3</th>
+                    <td>Mark</td>
+                    <td>Shopee</td>
+                    <td>1320</td>
+                    <td>Simples</td>
+                    <td>Tapete Tatame EVA Para Atividades Infantis 9 Pçs Liso Color</td>
+                    <td>EVA</td>
+                    <td>R$39,90</td>
+                    <td>50</td>
+                    <td>17/01/2023</td>
+                  </tr>
+                    </tbody>
+                  </table>
+
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">Voltar</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Avançar</a></li>
+                </ul>
+            </nav>
+        </main>
+    </div>
+    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../plugins/fontawesome/js/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+main {
+    display: flex;
+    width: calc(100% - 200px);
+    height: 100%;
+
+}
+
+main .main-content {
+    padding: 20px;
+    width: 100%;
+    height:100%;
+}
+
+main .main-content .title-main > h3 {
+    color: #0c76bc;
+}
+
+main .main-content .performace-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main .main-content .performace-main h1 {
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+}
+
+main .main-content .performace-main h2 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+main .main-content .performace-main h3 {
+    text-align: right;
+    font-size: 12px;
+    color: white;
+    padding: 5px;
+    margin-top: -12px;
+}
+
+
+main .main-content .performace-main .vendas-main {
+    padding: 5px;
+    width: 16%;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #36a2eb;
+    -webkit-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+}
+
+main .main-content .performace-main .totalvendido-main {
+    padding: 5px;
+    margin-left: 1%;
+    width: 16%;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #ff6384;
+    -webkit-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+}
+
+main .main-content .performace-main .ticketmedio-main {
+    padding: 5px;
+    width: 16%;
+    margin-left: 1%;
+    height: 90px;
+    border-radius: 20px;
+    background-color:#4bc0c0;
+    -webkit-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+}
+
+main .main-content .performace-main .pedidoshoje-main {
+    padding: 5px;
+    margin-left: 1%;
+    width: 16%;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #ff9f40;
+    -webkit-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+}
+
+main .main-content .performace-main .totalvendidohoje-main {
+    padding: 5px;
+    margin-left: 1%;
+    width: 16%;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #9966ff;
+    -webkit-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+}
+
+main .main-content .performace-main .problemas-main {
+    padding: 5px;
+    margin-left: 1%;
+    width: 16%;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #c9cbcf;
+    -webkit-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+}
+
+
+main .main-content .grafico-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   margin-top: 20px;
+
+}
+
+main .main-content .grafico-row .grafico-vendas {
+    padding: 5px;
+    width: 33%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+}
+
+main .main-content .grafico-row .grafico-produtos {
+    padding: 5px;
+    margin-left: 1%;
+    width: 33%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+}
+
+main .main-content .grafico-row .grafico-produtosmaisvendidos {
+    padding: 5px;
+    margin-left: 1%;
+    width: 33%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+    box-shadow: 2px 7px 11px 4px rgba(0,0,0,0.23);
+}
+

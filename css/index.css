@@ -1,0 +1,521 @@
+/*---------------------------------------- Gerando codigo para as tags principais ----------------------------------------*/
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top:hidden;
+    opacity: .25;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/*---------------------------------------- Inicio do codigo especifico ----------------------------------------*/
+
+body {
+    padding-top: 90px;
+} 
+
+
+.gi-body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    flex: 1 1 99vw;
+    height: auto;
+    line-height: 1.6;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+/*---------------------------------------- Inicio do estilo do conteudo principal ---------------------------------------- */
+
+main.gi-main {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0 0 98vw;
+}
+
+.gi-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 128px;
+}
+
+/*---------------------------------------- Estilo Banner principal ---------------------------------------- */
+
+.gi-chamada {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    flex: 1 1 50vw;
+}
+
+.gi-chamada h1 {
+    font-size: 53px;
+    font-weight: 900;
+    color: #219bd8;
+    line-height: 1.4;
+}
+
+.gi-chamada p {
+    margin-bottom: 0px;
+    padding-right: 70px;
+    line-height: 1.6;
+    font-size: 21px;
+    font-weight: 400;
+    color: #3d3a3a;
+}
+
+.gi-botão-chamada {
+    display: flex;
+    margin-top: 15px;
+}
+
+.bt-comecar {
+    font-weight: 700;
+    margin-right: 30px;
+    font-size: 21px;
+    background-color: #d84866;
+    border: 1px solid #d84866;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bt-comecar:hover {
+    transform: scale(1.3); 
+}
+
+.bt-equipe {
+    font-weight: 500;
+    font-size: 21px;
+    background-color: transparent;
+    border: 1px solid #d84866;
+    color: #d84866;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 16px;
+}
+
+.bt-equipe:hover {
+    transform: scale(1.25); 
+}
+
+
+.gi-chamada_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 50vw;
+}
+
+.gi-chamada_img img {
+    height: 400px;
+}
+
+/*---------------------------------------- Titulo para divisão de pagina ---------------------------------------- */
+
+section.gi-subtitulo h2 {
+    color: #219bd8;
+    font-size: 50px;
+    line-height: 1.3;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 78px;
+    text-align: center;
+}
+
+/*---------------------------------------- Quadros informações do site ---------------------------------------- */
+
+.quadros-info {
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.12);
+    width: 100%;
+    padding-bottom: 19px;
+    padding-top: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 12px;
+    margin-bottom: 180px;
+    font-size: 18px;
+}
+
+.gi-chamada2 {
+    align-items: flex-start;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.quadros-info h3 {
+    font-size: 21px;
+    color: #d84866;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.quadros-info h4 {
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.detalhes {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.detalhes .info-detalhes {
+    width: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.imagem-info-dash {
+    text-align: center;
+}
+
+
+.imagem-info-dash img {
+    text-align: center;
+    height: 400px;
+
+}
+
+.gi-chamada3 {
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 46px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.gi-ajustechamada {
+    padding-right: 0px;
+}
+
+/*---------------------------------------- Fim Quadros informações do site ---------------------------------------- */
+
+/*---------------------------------------- Quadro Banner Gratis ---------------------------------------- */
+
+.gi-banner-gratis {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 98vw;
+    background: linear-gradient(90deg, rgba(93,224,230,1) 0%, rgba(0,74,173,1) 100%);
+}
+
+.gi-logo-banner-gratis {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 33%;
+    text-align: left;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.gi-logo-banner-gratis img {
+    width: 82%;
+}
+
+.gi-content-banner-gratis {
+    width: 132%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.gi-chamada-banner-gratis {
+    width: 50%;
+    color: white;
+    font-size: 41px;
+    text-align: center;
+}
+
+.info-banner-gratis {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 48px 147px 0 48px;
+    width: 50%;
+}
+
+.info-banner {
+    color: white;
+    font-size: 20px;
+}
+
+.info-banner-gratis a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200%;
+    font-weight: 600;
+    font-size: 21px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #d84866;
+    padding: 10px 16px;
+    border-radius: 20px;
+}
+
+.info-banner-gratis a:hover {
+    transform: scale(1.3);
+}
+
+/*---------------------------------------- Fim Quadro Banner Gratis ---------------------------------------- */
+
+/*---------------------------------------- Quadro de Avaliações ----------------------------------------*/
+
+.gi-avaliacoes h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.gi-container-avaliacoes {
+    max-width: 1200px;
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.gi-declaracao {
+    max-width: 1200px;
+    width: 24%;
+    background-color: #050A30;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+
+.quote {
+    font-size: 45px;
+    color: white;
+    padding-left: 10px;
+}
+
+.gi-declaracao h3 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.gi-declaracao p {
+    font-size: 12px;
+    color: white;
+    margin-left: 8px;
+}
+
+.gi-declaracao > .fa-star {
+    color: white;
+    padding-left: 8px;
+}
+
+.gi-name-perfil {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 25px 0 0 10px;
+}
+
+.gi-foto-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.gi-foto-perfil img {
+    width: 80%;
+    color: white;
+}
+
+.name-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.name-perfil p {
+    margin: 0;
+    font-size: 11px;
+}
+
+/*---------------------------------------- Fim Quadro de Avaliações ----------------------------------------*/
+
+
+.btn-whatsapp img {
+    position: fixed;
+    bottom: 150px;
+    right: 15px;
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+}
+
+/*---------------------------------------- Inicio do estilo para adaptar para dispositivos ----------------------------------------*/
+
+@media only screen and (max-width: 923px) {
+    .gi-section {
+        flex-direction: column;
+        max-width: 600px;
+    }
+    .gi-chamada h1 {
+        font-size: 45px;
+    }
+
+    .imagem-info-dash img {
+        height: 300px;
+    }
+
+    .gi-chamada_img img {
+        height: 300px;
+    }
+
+    .info-banner-gratis {
+        text-align: center;
+        padding: 15px 0 15px 0;
+        margin: 0;
+    }
+
+    .gi-chamada-banner-gratis h2 {
+        margin: 5px;
+        padding: 0;
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 804px) {
+
+    #OpenMenu, #CloseMenu {
+        display: block;
+    }
+
+    #CloseMenu {
+        position: fixed;
+        right: 15px;
+        top: 40px;
+    }
+
+    #OpenMenu {
+        margin-left: auto;
+        color: white;
+    }
+
+    nav {
+        font-size: 40px;
+        color: #050a30;
+        position: fixed;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.8);
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin: 0;
+        display: none;
+        opacity: 0;
+        transition: 0,3s;
+
+    }
+
+    .gi-section {
+        flex-direction: column;
+        max-width: 600px;
+    }
+    .gi-chamada h1 {
+        font-size: 40px;
+    }
+    .gi-container-avaliacoes {
+        flex-direction: column;
+    }
+    .gi-declaracao{
+        width: 50%;
+    }
+
+    .gi-footer-infos {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gi-content-banner-gratis {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .gi-logo-banner-gratis {
+        display: none;
+    }
+
+    .gi-chamada-banner-gratis h2 {
+        margin: 5px;
+        padding: 0;
+        font-size: 40px;
+    }
+
+    .info-banner-gratis {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+}

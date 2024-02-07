@@ -1,0 +1,63 @@
+
+/*Estilo do Rodapé*/
+
+.gi-footer {
+    width: 99vw;
+    background-color: #050A30;
+    margin-top: 30px;
+    color: white;
+}
+
+.gi-footer p {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.gi-footer a {
+    font-size: 14px;
+}
+
+.gi-footer-infos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gi-footer-infos h3 {
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+}
+
+.gi-footer-infos li {
+    list-style-type: none;
+}
+
+.direitos {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gi-contato-site {
+    text-align: center;
+}
+
+.telefones-de-contato {
+    display: flex;
+    justify-content: space-around;
+}
+
+.telefones {
+    text-align: center;
+}
+
+.telefones a {
+    display: flex;
+    padding-left: 20px;
+}
+
+.direitos p{
+    font-size: 10px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+/*---------------------------------------- Fim Estilo do Rodapé ----------------------------------------*/
