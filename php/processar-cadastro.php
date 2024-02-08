@@ -28,3 +28,14 @@ if($conn ->connect_error) {
 
 $smtp = $conn->prepare("INSERT INTO cadastro_goless (name, razao, cnpj, email, password, password_confirm, data, hora) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
 $smtp->bind_param("ssssss", $nome, $razao, $cnpj, $email, $password, $password_confirm, $data_atual, $hora_atual);
+
+if($smtp->execute()) {
+    echo "Cadastro Efetuado com Sucesso";
+} else{
+    echo "erro no envio da mensagem: ".$smtp->error;
+};
+
+$smtp->close();
+$conn->close();
+
+?>
