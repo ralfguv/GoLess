@@ -46,6 +46,13 @@
 .register .form-group input {
     font-size: 14px;
 }
+
+.senha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 .register .btn {
     background: linear-gradient(135deg, #6ebefb, #a777e3);
     border: none;

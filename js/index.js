@@ -9,6 +9,7 @@ OpenMenu.addEventListener('click', () => {
         menu.style.opacity = '1'
 
         menu.style.right = '0'
+
     }, 10)
 })
 
