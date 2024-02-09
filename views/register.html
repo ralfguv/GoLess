@@ -16,30 +16,30 @@
                 <img src="../imagens/Logos_Goless/GoLess_Padrão.png" alt="">
                 <h2>Cadastro</h2>
             </div>
-            <form action="../php/processar-cadastro.php" method="post" class="row g-3 needs-validation was-validated" novalidate="">
+            <form action="processar-cadastro.php" method="post" class="row g-3 needs-validation was-validated">
                 <div class="form-group">
                     <label for="name" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="name" placeholder="Nome Completo" required>
+                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome Completo" required>
                 </div>
                 <div class="form-group">
                     <label for="razao" class="form-label">Razão Social</label>
-                    <input type="text" class="form-control" id="razao" placeholder="Razão Social" required>
+                    <input type="text" class="form-control" id="razao" name="razao" placeholder="Razão Social" required>
                 </div>
                 <div class="form-group">
                 <label for="cnpj" class="form-label">CNPJ</label>
-                <input type="text" class="form-control" id="cnpj" placeholder="CNPJ" required>
+                <input type="text" class="form-control" id="cnpj" name="cnpj" placeholder="CNPJ" required>
                 </div>
                 <div class="form-group">
                   <label for="email" class="form-label">E-mail</label>
-                  <input type="email" class="form-control" id="email" placeholder="Endereço de E-mail" required>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Endereço de E-mail" required>
                 </div>
                 <div class="form-group">
                   <label for="password" class="form-label">Senha</label>
-                  <input type="password" id="password" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Insira Senha" required>
+                  <input type="password" autocomplete="on" id="password" name="password" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Insira Senha" required>
                 </div>
                 <div class="form-group">
                   <label for="password-confirm" class="form-label">Confirmar Senha</label>
-                  <input type="password" id="password_confirm" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Confirme sua Senha" required>
+                  <input type="password" autocomplete="on" id="password_confirm" name="password-confirm" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Confirme sua Senha" required>
                 </div>
                   <button class=btn type="submit">Cadastrar</button>
             </form>

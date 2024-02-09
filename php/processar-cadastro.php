@@ -1,12 +1,16 @@
 <?php
 
+if (empty($_POST['name'])) {
+    $errors['name'] = 'Name required';
+}
+
 //pegando dados do formulario
-$name = $_POST['name'];
+$nome = $_POST['nome'];
 $razao = $_POST['razao'];
 $cnpj = $_POST['cnpj'];
 $email = $_POST['email'];
 $password = $_POST['password'];
-$password_confirm = $_POST['password_confirm'];
+$confirma_senha = $_POST['password-confirm'];
 $data_atual = date('d/m/Y');
 $hora_atual = date('H:i:s');
 
@@ -26,11 +30,12 @@ if($conn ->connect_error) {
     die("Falha ao se conectar com o banco de dados: ".$conn->connect_error);
 }
 
-$smtp = $conn->prepare("INSERT INTO cadastro_goless (name, razao, cnpj, email, password, password_confirm, data, hora) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
-$smtp->bind_param("ssssss", $nome, $razao, $cnpj, $email, $password, $password_confirm, $data_atual, $hora_atual);
+$smtp = $conn->prepare("INSERT INTO cadastro_goless (nome, razao, cnpj, email, password, data, hora) VALUES (?, ?, ?, ?, ?, ?, ?)");
+$smtp->bind_param("sssssss", $nome, $razao, $cnpj, $email, $password, $data_atual, $hora_atual);
 
 if($smtp->execute()) {
-    echo "Cadastro Efetuado com Sucesso";
+    header('Location: login.html');
+    echo "<script>alert('Cadastro Efetuado com Sucesso');</script>";
 } else{
     echo "erro no envio da mensagem: ".$smtp->error;
 };
