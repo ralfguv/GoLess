@@ -27,6 +27,7 @@
 }
 
 .class-banner {
+    display: flex;
     width: 50%;
     height: 100%;
     align-items: center;
@@ -36,7 +37,7 @@
 }
 
 .class-banner img {
-    height: 700px;
+    height: 600px;
 }
 
 .login-form-wrapper {

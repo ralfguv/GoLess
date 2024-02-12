@@ -34,7 +34,7 @@ $smtp = $conn->prepare("INSERT INTO cadastro_goless (nome, razao, cnpj, email, p
 $smtp->bind_param("sssssss", $nome, $razao, $cnpj, $email, $password, $data_atual, $hora_atual);
 
 if($smtp->execute()) {
-    header('Location: login.html');
+    header('Location: ../views/login.html');
     echo "<script>alert('Cadastro Efetuado com Sucesso');</script>";
 } else{
     echo "erro no envio da mensagem: ".$smtp->error;
