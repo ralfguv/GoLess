@@ -21,7 +21,7 @@
                     <h2>Login</h2>
                     <a href="../views/register.html">inscreva-se</a>
                 </div>
-                <form>
+                <form action="../php/login.php" method="post">
                     <div class="mb-3">
                       <label for="email" class="form-label">E-mail</label>
                       <input type="email" class="form-control" id="email" name="email" placeholder="exemplo@exemplo.com" aria-describedby="emailHelp">
@@ -30,7 +30,7 @@
                       <label for="senha" class="form-label">Senha</label>
                       <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha">
                     </div>
-                    <a class=btn href="../views/dashboard.html">Login</a>
+                    <button class="btn" type="submit">Login</button>
                   </form>
             </div>
         </div>

@@ -1,8 +1,7 @@
 <?php
 
-if (empty($_POST['name'])) {
-    $errors['name'] = 'Name required';
-}
+require_once 'config.php';
+
 
 //pegando dados do formulario
 $nome = $_POST['nome'];
@@ -14,21 +13,15 @@ $confirma_senha = $_POST['password-confirm'];
 $data_atual = date('d/m/Y');
 $hora_atual = date('H:i:s');
 
-//configurações de credenciais
-$server = 'localhost';
-$user = 'root';
-$key = '';
-$banco = 'goless_register';
-$tabela = 'cadastro_goless';
 
-//iniciando conexao com o banco de dados
+//verificar se cadastro ja existe usando o campo CNPJ
 
-$conn = new mysqli($server, $user, $key, $banco);
+//if($cnpj===$_POST['cnpj']) {
+//    header('Location: ../views/register.html');
+//    die("Cadastro já existe");
+//    echo "<script>alert('Cadastro já existe');</script>";
+//}
 
-//verificar conexao
-if($conn ->connect_error) {
-    die("Falha ao se conectar com o banco de dados: ".$conn->connect_error);
-}
 
 $smtp = $conn->prepare("INSERT INTO cadastro_goless (nome, razao, cnpj, email, password, data, hora) VALUES (?, ?, ?, ?, ?, ?, ?)");
 $smtp->bind_param("sssssss", $nome, $razao, $cnpj, $email, $password, $data_atual, $hora_atual);
