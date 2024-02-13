@@ -6,19 +6,34 @@
 }
 
 sidebar {
-  height: auto;
+  position: fixed;
+  height: 100%;
   width: 250px;
   border-radius: 0px 41px 0px 0px;
   background-color: #050A30;
 }
 
 sidebar .sidebar-img {
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px 18px 0px;
+  border-bottom: 2px solid white;
 }
 
 sidebar .sidebar-img img {
   margin: 5px;
   width: 200px;
+}
+
+sidebar .sidebar-img .toogle {
+  position: absolute;
+  color: white;
+  width: 20px;
+  height: 20px;
+  left: 220px;
+  top: 60px;
+  cursor: pointer;
 }
 
 sidebar .sidebar-menu {
@@ -40,8 +55,9 @@ sidebar .sidebar-menu ul {
 
 sidebar .sidebar-menu ul > li {
   padding: 15px 5px;
-  width: 100%;
+  width: 95%;
   border-radius: 0px 15px 15px 0px;
+  transition: all 0.2s ease;
 }
 
 sidebar .sidebar-menu ul li a {
@@ -61,62 +77,21 @@ sidebar .sidebar-menu ul li svg {
   cursor: pointer;
 }
 
-sidebar .sidebar-menu ul > .vendas > .subvendas {
+sidebar .submenu {
+  background-color: #050A30;
+  position: absolute;
+  left: 223px;
+  top: 180px;
+  width: 200px;
+  height: auto;
   margin-left: 30px;
-  margin-bottom: -15px;
-  display: none;
+  display: flex;
+  flex-direction: column;
   transition: 0, 15s;
+ display: none;
 }
 
-sidebar .sidebar-menu ul .subvendas a {
-  font-size: 13px;
-  margin-left: -5px;
-}
-
-sidebar .sidebar-menu ul > .catalogo > .subcatalogo {
-  margin-left: 30px;
-  margin-bottom: -15px;
-  display: none;
-  transition: all 4s;
-}
-
-sidebar .sidebar-menu ul .subcatalogo a {
-  font-size: 13px;
-  margin-left: -5px;
-}
-
-sidebar .sidebar-menu ul > .relatorios > .subrelatorios {
-  margin-left: 30px;
-  margin-bottom: -15px;
-  display: none;
-  transition: 0, 15s;
-}
-
-sidebar .sidebar-menu ul .subrelatorios a {
-  font-size: 13px;
-  margin-left: -5px;
-}
-
-sidebar .sidebar-menu ul > .config > .subconfig {
-  margin-left: 30px;
-  margin-bottom: -15px;
-  display: none;
-  transition: 0, 15s;
-}
-
-sidebar .sidebar-menu ul .subconfig a {
-  font-size: 13px;
-  margin-left: -5px;
-}
-
-sidebar .sidebar-menu ul > .monitoramento > .submonitoramento {
-  margin-left: 30px;
-  margin-bottom: -15px;
-  display: none;
-  transition: 0, 15s;
-}
-
-sidebar .sidebar-menu ul .submonitoramento a {
+sidebar .submenu a {
   font-size: 13px;
   margin-left: -5px;
 }

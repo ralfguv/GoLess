@@ -18,29 +18,31 @@
 
             <div class="sidebar-img">
                 <img src="../imagens/Logos_Goless/GoLess HORIZONTAL.png" alt="">
+                <i class="fa-solid fa-ellipsis-vertical toogle"></i>
             </div>
 
             <div class="sidebar-menu">
 
                 <ul>
                     <li>
-                        <i class="fa-solid fa-chart-pie"></i>
-                        <a href="dashboard.html"></i>Dashboard</a>
+                        <a class="textlink" href="dashboard.html">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            <span class="link_name">Dashboard</span>
+                        </a>
                     </li>
-                    <li class="vendas">
+                    
+                    <li>
                         <div class="menulateral">
-                            <div>
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <a href="#">Vendas</a>
-                            </div>
-                            <div>
+                                <a class="textlink" href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span class="link_name">Vendas</span>
+                                </a>
                                 <i class="fa-solid fa-chevron-down"></i>
-                            </div>
                         </div>
-                        <ul class="subvendas">
+                        <ul class="submenu">
                             <li>
                                 <i class="fa-solid fa-caret-right"></i>
-                                <a href="vendas.html">Pedidos</a>
+                                <a  href="vendas.html">Pedidos</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-caret-right"></i>
@@ -56,13 +58,13 @@
                         <div class="menulateral">
                             <div>
                                 <i class="fa-solid fa-file-circle-plus"></i>
-                                <a href="#">Catalogo</a>
+                                <a class="textlink" href="#">Catalogo</a>
                             </div>
                             <div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
                         </div>
-                        <ul class="subcatalogo">
+                        <ul class="submenu">
                             <li>
                                 <i class="fa-solid fa-caret-right"></i>
                                 <a href="catalogo.html">Produtos</a>
@@ -83,23 +85,23 @@
                     </li>
                     <li>
                         <i class="fa-brands fa-slack"></i>
-                        <a href="integracoes.html">Integrações</a>
+                        <a class="textlink" href="integracoes.html">Integrações</a>
                     </li>
                     <li>
                         <i class="fa-solid fa-chart-simple"></i>
-                        <a href="insights.html">Insights</a>
+                        <a class="textlink" href="insights.html">Insights</a>
                     </li>
                     <li class="relatorios">
                         <div class="menulateral">
                             <div>
                                 <i class="fa-solid fa-layer-group"></i>
-                                <a href="#">Relatórios</a>
+                                <a class="textlink" href="#">Relatórios</a>
                             </div>
                             <div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
                         </div>
-                        <ul class="subrelatorios">
+                        <ul class="submenu">
                             <li>
                                 <i class="fa-solid fa-caret-right"></i>
                                 <a href="relatorios.html">Lucratividade</a>
@@ -118,13 +120,13 @@
                         <div class="menulateral">
                             <div>
                                 <i class="fa-solid fa-gear"></i>
-                                <a href="#">Configurações</a>
+                                <a class="textlink" href="#">Configurações</a>
                             </div>
                             <div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
                         </div>
-                        <ul class="subconfig">
+                        <ul class="submenu">
                             <li>
                                 <i class="fa-solid fa-caret-right"></i>
                                 <a href="configuracoes.html">Geral</a>
@@ -155,13 +157,13 @@
                         <div class="menulateral">
                             <div>
                                 <i class="fa-solid fa-eye"></i>
-                                <a href="#">Monitoramento</a>
+                                <a class="textlink" href="#">Monitoramento</a>
                             </div>
                             <div>
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
                         </div>
-                        <ul class="submonitoramento">
+                        <ul class="submenu">
                             <li>
                                 <i class="fa-solid fa-caret-right"></i>
                                 <a href="monitoramento.html">Carga</a>
@@ -221,8 +223,8 @@
                         <span>Problemas</span>
                     </div>
                 </div>
-                <div class="grafico-row">
-                    <div class="grafico-vendas">
+                <div class="graficos">
+                    <div class="grafico-vendas grafico-estilo">
                         <div>
                             <canvas id="myChart"></canvas>
                         </div>
@@ -233,47 +235,58 @@
                             const ctx = document.getElementById('myChart');
 
                             new Chart(ctx, {
-                                type: 'doughnut',
+                                type: 'pie',
                                 data: {
-                                    labels: ['Magalu', 'B2W', 'ML', 'ML', 'Via Varejo', 'Shopee'],
+                                    labels: ['B2W', 'Magalu', 'Mercado Livre', 'Tray', 'Amazon', 'Shopee'],
                                     datasets: [{
-                                        label: '# Vendas',
-                                        data: [20, 25, 10, 5, 8, 3],
-                                        borderWidth: 1
+                                        label: 'Total Vendido por Canal',
+                                        data: [80, 300, 320, 20, 10, 3000],
+                                        borderWidth: 2
                                     }]
                                 },
                                 options: {
+                                    layout: {
+                                            padding: 20
+                                            },
                                     scales: {
                                         y: {
-                                            beginAtZero: false
+                                            beginAtZero: true
                                         }
                                     }
                                 }
                             });
                         </script>
                     </div>
-                    <div class="grafico-produtos">
 
+                    <div class="notas grafico-estilo">
+                        <p>Notas</p>
                     </div>
-                    <div class="grafico-produtosmaisvendidos">
-                        <p>teste</p>
+
+                    <div class="metas grafico-estilo">
+                        <p>Compromissos</p>
                     </div>
-                </div>
-                <div class="grafico-row">
-                    <div class="grafico-vendas">
-                        <p>teste</p>
+
+                    <div class="vendas-semanais grafico-estilo">
+                        
                     </div>
-                    <div class="grafico-produtos">
-                        <p>teste</p>
+
+                    <div class="vendas-markteplace grafico-estilo">
+                        <p>Vendas Markteplace</p>
                     </div>
-                    <div class="grafico-produtosmaisvendidos">
-                        <p>teste</p>
+
+
+                    <div class="Geral grafico-estilo">
+                        <p>Geral</p>
                     </div>
                 </div>
         </main>
+        <!--<footer>
+            <p>Rodapé</p>
+        </footer>-->
     </div>
     <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="../plugins/fontawesome/js/all.min.js"></script>
+    <script src="../js/dashboard.js"></script>
 </body>
 
 </html>
