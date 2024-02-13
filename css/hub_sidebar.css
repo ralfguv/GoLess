@@ -1,132 +1,122 @@
 .flex-dashborad {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    width:100%;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
 }
 
 sidebar {
-    height: 100%;
-    width: 250px;
+  height: auto;
+  width: 250px;
+  border-radius: 0px 41px 0px 0px;
+  background-color: #050A30;
 }
 
-sidebar:hover main{
-    width: 100%;
+sidebar .sidebar-img {
+    text-align: center;
+}
+
+sidebar .sidebar-img img {
+  margin: 5px;
+  width: 200px;
 }
 
 sidebar .sidebar-menu {
-    border: 0px solid rgba(0,0,0,.0625);
-    margin-top: 10px;
-
+  border: 0px solid rgba(0, 0, 0, 0.0625);
+  margin-top: 10px;
 }
 
 sidebar .sidebar-menu ul {
-    list-style-type: none;
-    padding-left: 0 !important;
+  list-style-type: none;
+  padding-top: 5px;
+  padding-left: 0 !important;
+}
+
+.menulateral {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 sidebar .sidebar-menu ul > li {
-    padding: 10px 5px;
-    width: 100%;
+  padding: 15px 5px;
+  width: 100%;
+  border-radius: 0px 15px 15px 0px;
 }
 
-sidebar .sidebar-menu ul > li > a {
-    text-decoration: none;
-    color: #72777a;
-    font-size: 15px;
+sidebar .sidebar-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
 }
 
-sidebar .sidebar-menu ul > li > a:hover {
-    color:#4D4D4D;
+sidebar .sidebar-menu ul > li:hover {
+    background-color: #3A99D9;
 }
 
-sidebar .sidebar-menu ul > li > svg{
-    padding-right: 10px;
-    color: #6e8efb;
-    font-size: 20px;
+sidebar .sidebar-menu ul li svg {
+  padding-right: 10px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 sidebar .sidebar-menu ul > .vendas > .subvendas {
-    margin-left: 30px;
-    margin-bottom: -15px;
-    display: none;
-    transition: 0,15s;
-} 
-
-sidebar .sidebar-menu ul > .vendas:hover > .subvendas{
-    display: block;
-    transition: 0,15s;
+  margin-left: 30px;
+  margin-bottom: -15px;
+  display: none;
+  transition: 0, 15s;
 }
 
 sidebar .sidebar-menu ul .subvendas a {
-    font-size: 13px;
-    margin-left: -5px;
+  font-size: 13px;
+  margin-left: -5px;
 }
 
 sidebar .sidebar-menu ul > .catalogo > .subcatalogo {
-    margin-left: 30px;
-    margin-bottom: -15px;
-    display: none;
-    transition: all 4s
-} 
-
-sidebar .sidebar-menu ul > .catalogo:hover > .subcatalogo{
-    display: block;
-    transition: all 4s
+  margin-left: 30px;
+  margin-bottom: -15px;
+  display: none;
+  transition: all 4s;
 }
 
 sidebar .sidebar-menu ul .subcatalogo a {
-    font-size: 13px;
-    margin-left: -5px;
+  font-size: 13px;
+  margin-left: -5px;
 }
 
 sidebar .sidebar-menu ul > .relatorios > .subrelatorios {
-    margin-left: 30px;
-    margin-bottom: -15px;
-    display: none;
-    transition: 0,15s;
-} 
-
-sidebar .sidebar-menu ul > .relatorios:hover > .subrelatorios{
-    display: block;
-    transition: 0,15s;
+  margin-left: 30px;
+  margin-bottom: -15px;
+  display: none;
+  transition: 0, 15s;
 }
 
 sidebar .sidebar-menu ul .subrelatorios a {
-    font-size: 13px;
-    margin-left: -5px;
+  font-size: 13px;
+  margin-left: -5px;
 }
 
 sidebar .sidebar-menu ul > .config > .subconfig {
-    margin-left: 30px;
-    margin-bottom: -15px;
-    display: none;
-    transition: 0,15s;
-} 
-
-sidebar .sidebar-menu ul > .config:hover > .subconfig {
-    display: block;
-    transition: 0,15s;
+  margin-left: 30px;
+  margin-bottom: -15px;
+  display: none;
+  transition: 0, 15s;
 }
 
 sidebar .sidebar-menu ul .subconfig a {
-    font-size: 13px;
-    margin-left: -5px;
+  font-size: 13px;
+  margin-left: -5px;
 }
 
 sidebar .sidebar-menu ul > .monitoramento > .submonitoramento {
-    margin-left: 30px;
-    margin-bottom: -15px;
-    display: none;
-    transition: 0,15s;
-} 
-
-sidebar .sidebar-menu ul > .monitoramento:hover > .submonitoramento {
-    display: block;
-    transition: 0,15s;
+  margin-left: 30px;
+  margin-bottom: -15px;
+  display: none;
+  transition: 0, 15s;
 }
 
 sidebar .sidebar-menu ul .submonitoramento a {
-    font-size: 13px;
-    margin-left: -5px;
+  font-size: 13px;
+  margin-left: -5px;
 }
