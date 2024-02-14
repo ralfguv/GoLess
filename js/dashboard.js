@@ -1,11 +1,6 @@
-const   sidebar = document.querySelector("sidebar"),
-        main = document.querySelector("main"),
-        toogle = document.querySelector(".toogle"),
-        textlink = document.querySelector(".textlink");
+const hamBurger = document.querySelector(".toggle-btn");
 
-
-        toogle.addEventListener("click", () => {
-            sidebar.style.width = '50px'
-        });
-        
-      
+hamBurger.addEventListener("click", function () {
+  document.querySelector("#sidebar").classList.toggle("expand");
+  document.querySelector("main").classList.toggle("ajustemenu")
+});

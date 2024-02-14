@@ -1,97 +1,144 @@
-.flex-dashborad {
-  display: flex;
-  flex-direction: row;
-  height: auto;
-  width: 100%;
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
-sidebar {
-  position: fixed;
-  height: 100%;
-  width: 250px;
-  border-radius: 0px 41px 0px 0px;
-  background-color: #050A30;
+li {
+    list-style: none;
 }
 
-sidebar .sidebar-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 0px 18px 0px;
-  border-bottom: 2px solid white;
+h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
-sidebar .sidebar-img img {
-  margin: 5px;
-  width: 200px;
-}
-
-sidebar .sidebar-img .toogle {
-  position: absolute;
-  color: white;
-  width: 20px;
-  height: 20px;
-  left: 220px;
-  top: 60px;
-  cursor: pointer;
-}
-
-sidebar .sidebar-menu {
-  border: 0px solid rgba(0, 0, 0, 0.0625);
-  margin-top: 10px;
-}
-
-sidebar .sidebar-menu ul {
-  list-style-type: none;
-  padding-top: 5px;
-  padding-left: 0 !important;
-}
-
-.menulateral {
+.wrapper {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
-sidebar .sidebar-menu ul > li {
-  padding: 15px 5px;
-  width: 95%;
-  border-radius: 0px 15px 15px 0px;
-  transition: all 0.2s ease;
+#sidebar {
+    position: fixed;
+    height: 100%;
+    width: 70px;
+    min-width: 70px;
+    z-index: 1000;
+    transition: all .25s ease-in-out;
+    background-color: #050A30;
+    border-radius: 0 30px 0 0;
+    display: flex;
+    flex-direction: column;
 }
 
-sidebar .sidebar-menu ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 15px;
+#sidebar a {
+    text-decoration: none;
 }
 
-sidebar .sidebar-menu ul > li:hover {
-    background-color: #3A99D9;
+#sidebar i {
+    font-size: 20px;
 }
 
-sidebar .sidebar-menu ul li svg {
-  padding-right: 10px;
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
+.d-flex {
+    border-bottom: 2px solid white;
 }
 
-sidebar .submenu {
-  background-color: #050A30;
-  position: absolute;
-  left: 223px;
-  top: 180px;
-  width: 200px;
-  height: auto;
-  margin-left: 30px;
-  display: flex;
-  flex-direction: column;
-  transition: 0, 15s;
- display: none;
+.d-flex img {
+    width: 50px;
 }
 
-sidebar .submenu a {
-  font-size: 13px;
-  margin-left: -5px;
+#sidebar.expand {
+    width: 260px;
+    min-width: 260px;
+}
+
+.toggle-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    padding: 15px 15px;
+}
+
+.toggle-btn i {
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.sidebar-logo {
+    margin: auto 0;
+    text-align: center;
+    width: 150px;
+}
+
+.sidebar-logo a {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#sidebar:not(.expand) .sidebar-logo,
+#sidebar:not(.expand) a.sidebar-link span {
+    display: none;
+}
+
+.sidebar-nav {
+    padding: 2rem 0;
+    flex: 1 1 auto;
+}
+
+a.sidebar-link {
+    padding: .625rem 1.625rem;
+    color: #FFF;
+    display: block;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-link i {
+    font-size: 1.1rem;
+    margin-right: .75rem;
+}
+
+a.sidebar-link:hover {
+    background-color: rgba(255, 255, 255, .075);
+    border-left: 3px solid #3b7ddd;
+}
+
+.sidebar-item {
+    position: relative;
+}
+
+#sidebar:not(.expand) .sidebar-item .sidebar-dropdown {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    background-color: #050A30;
+    padding: 0;
+    min-width: 15rem;
+    display: none;
+}
+
+#sidebar:not(.expand) .sidebar-item:hover .has-dropdown+.sidebar-dropdown {
+    display: block;
+    max-height: 15em;
+    width: 100%;
+    opacity: 1;
+}
+
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after {
+    border: solid;
+    border-width: 0 .075rem .075rem 0;
+    content: "";
+    display: inline-block;
+    padding: 2px;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.4rem;
+    transform: rotate(-135deg);
+    transition: all .2s ease-out;
+}
+
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
+    transform: rotate(45deg);
+    transition: all .2s ease-out;
 }
