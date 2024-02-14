@@ -210,4 +210,9 @@ main .main-content .graficos .Geral {
     grid-area: 4 / 1 / 4 / 4;
 } 
 
+.size-image-propaganda img {
+    height: 495px;
+    border-radius: 15px;
+}
+
 
