@@ -233,7 +233,108 @@ if (!empty($_GET['id'])) {
 
 
                     <div class="ultimas_vendas grafico-estilo">
-                        <p>Ultimas Vendas</p>
+                        <span>Ultimas Vendas</span>
+
+                        <table class="table table-borderless table_ultimas_vendas">
+                            <tbody>
+                                <tr>
+                                    <td rowspan="4" class="ImagemEHeaderPedido" style="width: 40%; height: 100%;">
+                                        <img width="100%" style="padding: 10px;" src="../imagens/Elementos_Gráficos/Hub/Dashboard/Kits/kit_3_bandanas_rosa_1.jpg">
+                                    </td>
+                                    <td class="ImagemEHeaderPedido" style="width: 5%;">
+                                        <span class="codigoPedido">240215MBFQRP4E</span>
+                                    </td>
+                                    <td class="ImagemEHeaderPedido">
+                                        <span class="statusPedido">(Pagamento Confirmado)</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="dadosPedido" style="width: 100%;">Kit 3 Babador Bandana Algodão Bebê Dupla Face Menina Menino (Kit Menina)</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="dadosPedido" style="width: 100%;">2 x R$ 18,99</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="dadosPedido" style="width: 5%;"><img src="../imagens/Elementos_Gráficos/Hub/icones_mkt/shopee.png" alt="shopee">&nbsp;Shopee <i>(2 minutos atrás)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="table table-borderless table_ultimas_vendas">
+                            <tbody>
+                                <tr>
+                                    <td rowspan="4" class="ImagemEHeaderPedido" style="width: 40%; height: 100%;">
+                                        <img width="100%" style="padding: 10px;" src="../imagens/Elementos_Gráficos/Hub/Dashboard/Kits/kit_3_bandanas_rosa_1.jpg">
+                                    </td>
+                                    <td class="ImagemEHeaderPedido" style="width: 5%;">
+                                        <span class="codigoPedido">240215MBFQRP4E</span>
+                                    </td>
+                                    <td class="ImagemEHeaderPedido">
+                                        <span class="statusPedido">(Pagamento Confirmado)</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="dadosPedido" style="width: 100%;">Kit 3 Babador Bandana Algodão Bebê Dupla Face Menina Menino (Kit Menina)</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="dadosPedido" style="width: 100%;">2 x R$ 18,99</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="dadosPedido" style="width: 5%;"><img src="../imagens/Elementos_Gráficos/Hub/icones_mkt/shopee.png" alt="shopee">&nbsp;Shopee <i>(2 minutos atrás)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="table table-borderless table_ultimas_vendas">
+                            <tbody>
+                                <tr>
+                                    <td rowspan="4" class="ImagemEHeaderPedido" style="width: 40%; height: 100%;">
+                                        <img width="100%" style="padding: 10px;" src="../imagens/Elementos_Gráficos/Hub/Dashboard/Kits/kit_3_bandanas_rosa_1.jpg">
+                                    </td>
+                                    <td class="ImagemEHeaderPedido" style="width: 5%;">
+                                        <span class="codigoPedido">240215MBFQRP4E</span>
+                                    </td>
+                                    <td class="ImagemEHeaderPedido">
+                                        <span class="statusPedido">(Pagamento Confirmado)</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="dadosPedido" style="width: 100%;">Kit 3 Babador Bandana Algodão Bebê Dupla Face Menina Menino (Kit Menina)</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="dadosPedido" style="width: 100%;">2 x R$ 18,99</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="dadosPedido" style="width: 5%;"><img src="../imagens/Elementos_Gráficos/Hub/icones_mkt/shopee.png" alt="shopee">&nbsp;Shopee <i>(2 minutos atrás)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="table table-borderless table_ultimas_vendas">
+                            <tbody>
+                                <tr>
+                                    <td rowspan="4" class="ImagemEHeaderPedido" style="width: 40%; height: 100%;">
+                                        <img width="100%" style="padding: 10px;" src="../imagens/Elementos_Gráficos/Hub/Dashboard/Kits/kit_3_bandanas_rosa_1.jpg">
+                                    </td>
+                                    <td class="ImagemEHeaderPedido" style="width: 5%;">
+                                        <span class="codigoPedido">240215MBFQRP4E</span>
+                                    </td>
+                                    <td class="ImagemEHeaderPedido">
+                                        <span class="statusPedido">(Pagamento Confirmado)</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="dadosPedido" style="width: 100%;">Kit 3 Babador Bandana Algodão Bebê Dupla Face Menina Menino (Kit Menina)</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="dadosPedido" style="width: 100%;">2 x R$ 18,99</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="dadosPedido" style="width: 5%;"><img src="../imagens/Elementos_Gráficos/Hub/icones_mkt/shopee.png" alt="shopee">&nbsp;Shopee <i>(2 minutos atrás)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
                     </div>
 
                     <div class="notas grafico-estilo" id="tabela-notas">
@@ -277,19 +378,316 @@ if (!empty($_GET['id'])) {
 
                     <div class="extra grafico-estilo">
                         <div class="header_cards">
-                            <span>Extra</span>
-                            <a href=#tabela-notas><i class="fa-solid fa-plus"></i>Extra</a>
+                            <span>Expedição</span>
                         </div>
+
+                        <div>
+                            <canvas style="display: block;box-sizing: border-box;height: 384px; width: 100%;" id="chartexpedicao"></canvas>
+                        </div>
+
+                        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                        <script>
+                            const ctx = document.getElementById('chartexpedicao');
+
+                            new Chart(ctx, {
+
+
+
+                                type: 'bar',
+                                data: {
+                                    labels: ['Aberto', 'Faturado', 'Hoje', 'Conferir', 'Devolvido'],
+                                    datasets: [{
+                                        label: 'Status',
+                                        data: [50, 5, 2, 150, 8],
+                                    }]
+                                },
+                                options: {
+                                    scales: {
+
+                                        x: {
+                                            grid: {
+                                                drawOnChartArea: false,
+                                                drawTicks: false,
+                                            },
+                                            ticks: {
+                                                display: false,
+                                            },
+                                        },
+
+                                        y: {
+                                            grid: {
+                                                drawOnChartArea: false,
+                                            },
+                                            beginAtZero: true,
+                                        },
+
+
+                                    },
+
+                                    indexAxis: 'y',
+                                    elements: {
+                                        bar: {
+                                            borderWidth: 1,
+                                        }
+                                    },
+                                    responsive: false,
+                                    plugins: {
+                                        legend: {
+                                            display: false,
+                                            position: 'right',
+                                        },
+                                    }
+                                }
+                            });
+                        </script>
+
+
                     </div>
 
                     <div class="metas grafico-estilo">
                         <div class="header_title_cards">
-                            <span>Próximos Compromissos</span>
+                            <span class="txt_alinhamento_left">Próximos Compromissos</span>
+                            <button type="button" class="btn btn_plus" data-bs-toggle="modal" data-bs-target="#cad_compromisso"><i class="fa-solid fa-plus"></i></button>
                         </div>
-                        <div class="header_cards">
-                            <span>Metas</span>
-                            <a href="#"><i class="fa-solid fa-plus"></i>Metas</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade " id="cad_compromisso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <form action="../php/compromisso.php" method="post">
+                                            <div class="mb-3 form-floating">
+                                                <input type="text" class="form-control" name="titulo" id="titulo" placeholder="Título do seu compromisso" required>
+                                                <label for="titulo">Título do seu compromisso</label>
+                                            </div>
+                                            <div class=" mb-3 row">
+                                                <div class="col">
+                                                    <input type="date" class="form-control" name="data" id="data" required>
+                                                </div>
+                                                <div class="col">
+                                                    <input type="time" class="form-control" name="hora" id="hora" required>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3 form-floating">
+                                                <textarea class="form-control" name="descricao" id="descricao" rows="3" placeholder="Descreva seu compromisso:" required></textarea>
+                                                <label for="descricao">Descreva seu Compromisso:</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-success">Enviar</button>
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Desistir</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+                        <table class="table table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td rowspan="03" class="time">07:00</td>
+                                    <!--colocar a quantidade de linhas para o time de 3 e colocar por td as infos junto com o botão de ação-->
+                                    
+                                    <?php
+                                        $horatd = 07;
+
+                                     include_once 'listar_compromisso.php';
+
+                                        while ($dados_compromisso = mysqli_fetch_assoc($result_dados)) {
+                                            echo "<tr>";
+                                            echo "<td class='event'>" . $dados_compromisso['hora'] . " -- " . $dados_compromisso['titulo'] . "</td>";
+                                            echo "<td class'icones-compromissos'>
+                                                
+                                                        <i class='fa-solid fa-pen-to-square'></i>
+
+                                                        <a href='dashboard.php?id=$dados_compromisso[id]'>
+                                                            <i class='fa-solid fa-check'></i>
+                                                        </a>
+                                                    </td>";
+                                        }
+                                    ?>
+                                </tr>
+                                <tr>
+                                    <td class="time">08:00</td>
+                                    <!--colocar a quantidade de linhas para o time de 3 e colocar por td as infos junto com o botão de ação-->
+                                    <?php
+                                        $horatd = 8;
+                                        include_once 'listar_compromisso.php';
+
+                                        while ($dados_compromisso = mysqli_fetch_assoc($result_dados)) {
+                                            echo "<td class='event'>" . $dados_compromisso['hora'] . " -- " . $dados_compromisso['titulo'] . "</td>";
+                                            echo "<td class'icones-compromissos'>
+                                                
+                                                        <i class='fa-solid fa-pen-to-square'></i>
+
+                                                        <a href='dashboard.php?id=$dados_compromisso[id]'>
+                                                            <i class='fa-solid fa-check'></i>
+                                                        </a>
+                                                    </td>";
+                                        }
+                                    ?>
+                                </tr>
+                                <tr>
+                                    <td class="time">09:00</td>
+                                    <!--colocar a quantidade de linhas para o time de 3 e colocar por td as infos junto com o botão de ação-->
+                                    <?php
+                                        $horatd = 9;
+                                        include_once 'listar_compromisso.php';
+
+                                        while ($dados_compromisso = mysqli_fetch_assoc($result_dados)) {
+                                            echo "<td class='event'>" . $dados_compromisso['hora'] . " -- " . $dados_compromisso['titulo'] . "</td>";
+                                            echo "<td class'icones-compromissos'>
+                                                
+                                                        <i class='fa-solid fa-pen-to-square'></i>
+
+                                                        <a href='dashboard.php?id=$dados_compromisso[id]'>
+                                                            <i class='fa-solid fa-check'></i>
+                                                        </a>
+                                                    </td>";
+                                        }
+                                    ?>
+                                </tr>
+                                <tr>
+                                    <td class="time">10:00</td>
+                                    <!--colocar a quantidade de linhas para o time de 3 e colocar por td as infos junto com o botão de ação-->
+                                    <?php
+                                        $horatd = 10;
+                                        include_once 'listar_compromisso.php';
+
+                                        while ($dados_compromisso = mysqli_fetch_assoc($result_dados)) {
+                                            echo "<td class='event'>" . $dados_compromisso['hora'] . " -- " . $dados_compromisso['titulo'] . "</td>";
+                                            echo "<td class'icones-compromissos'>
+                                                
+                                                        <i class='fa-solid fa-pen-to-square'></i>
+
+                                                        <a href='dashboard.php?id=$dados_compromisso[id]'>
+                                                            <i class='fa-solid fa-check'></i>
+                                                        </a>
+                                                    </td>";
+                                        }
+                                    ?>
+                                </tr>
+                                <tr>
+                                    <td class="time">11:00</td>
+                                    <!--colocar a quantidade de linhas para o time de 3 e colocar por td as infos junto com o botão de ação-->
+                                    <?php
+                                        $horatd = 11;
+                                        include_once 'listar_compromisso.php';
+
+                                        while ($dados_compromisso = mysqli_fetch_assoc($result_dados)) {
+                                            echo "<td class='event'>" . $dados_compromisso['hora'] . " -- " . $dados_compromisso['titulo'] . "</td>";
+                                            echo "<td class'icones-compromissos'>
+                                                
+                                                        <i class='fa-solid fa-pen-to-square'></i>
+
+                                                        <a href='dashboard.php?id=$dados_compromisso[id]'>
+                                                            <i class='fa-solid fa-check'></i>
+                                                        </a>
+                                                    </td>";
+                                        }
+                                    ?>
+                                </tr>
+                                <tr>
+                                    <td class="time">12:00</td>
+                                    <!--colocar a quantidade de linhas para o time de 3 e colocar por td as infos junto com o botão de ação-->
+                                    <?php
+                                        $horatd = 12;
+                                        include_once 'listar_compromisso.php';
+
+                                        while ($dados_compromisso = mysqli_fetch_assoc($result_dados)) {
+                                            echo "<td class='event'>" . $dados_compromisso['hora'] . " -- " . $dados_compromisso['titulo'] . "</td>";
+                                            echo "<td class'icones-compromissos'>
+                                                
+                                                        <i class='fa-solid fa-pen-to-square'></i>
+
+                                                        <a href='dashboard.php?id=$dados_compromisso[id]'>
+                                                            <i class='fa-solid fa-check'></i>
+                                                        </a>
+                                                    </td>";
+                                        }
+                                    ?>
+                                </tr>
+                                <tr>
+                                    <td class="time">13:00</td>
+                                    <!--colocar a quantidade de linhas para o time de 3 e colocar por td as infos junto com o botão de ação-->
+                                    <?php
+                                        $horatd = 13;
+                                        include_once 'listar_compromisso.php';
+
+                                        while ($dados_compromisso = mysqli_fetch_assoc($result_dados)) {
+                                            echo "<td class='event'>" . $dados_compromisso['hora'] . " -- " . $dados_compromisso['titulo'] . "</td>";
+                                            echo "<td class'icones-compromissos'>
+                                                
+                                                        <i class='fa-solid fa-pen-to-square'></i>
+
+                                                        <a href='dashboard.php?id=$dados_compromisso[id]'>
+                                                            <i class='fa-solid fa-check'></i>
+                                                        </a>
+                                                    </td>";
+                                        }
+                                    ?>
+                                </tr>
+                                <tr>
+                                    <td class="time">14:00</td>
+                                    <!--colocar a quantidade de linhas para o time de 3 e colocar por td as infos junto com o botão de ação-->
+                                    <?php
+                                        $horatd = 14;
+                                        include_once 'listar_compromisso.php';
+
+                                        while ($dados_compromisso = mysqli_fetch_assoc($result_dados)) {
+                                            echo "<td class='event'>" . $dados_compromisso['hora'] . " -- " . $dados_compromisso['titulo'] . "</td>";
+                                            echo "<td class'icones-compromissos'>
+                                                
+                                                        <i class='fa-solid fa-pen-to-square'></i>
+
+                                                        <a href='dashboard.php?id=$dados_compromisso[id]'>
+                                                            <i class='fa-solid fa-check'></i>
+                                                        </a>
+                                                    </td>";
+                                        }
+                                    ?>
+                                </tr>
+                                <tr>
+                                    <td class="time">15:00</td>
+                                    <!--colocar a quantidade de linhas para o time de 3 e colocar por td as infos junto com o botão de ação-->
+                                    <?php
+                                        $horatd = 15;
+                                        include_once 'listar_compromisso.php';
+
+                                        while ($dados_compromisso = mysqli_fetch_assoc($result_dados)) {
+                                            echo "<td class='event'>" . $dados_compromisso['hora'] . " -- " . $dados_compromisso['titulo'] . "</td>";
+                                            echo "<td class'icones-compromissos'>
+                                                
+                                                        <i class='fa-solid fa-pen-to-square'></i>
+
+                                                        <a href='dashboard.php?id=$dados_compromisso[id]'>
+                                                            <i class='fa-solid fa-check'></i>
+                                                        </a>
+                                                    </td>";
+                                        }
+                                    ?>
+                                </tr>
+                                <tr>
+                                    <td class="time">16:00</td>
+                                    <!--colocar a quantidade de linhas para o time de 3 e colocar por td as infos junto com o botão de ação-->
+                                    <?php
+                                        $horatd = 16;
+                                        include_once 'listar_compromisso.php';
+
+                                        while ($dados_compromisso = mysqli_fetch_assoc($result_dados)) {
+                                            echo "<td class='event'>" . $dados_compromisso['hora'] . " -- " . $dados_compromisso['titulo'] . "</td>";
+                                            echo "<td class'icones-compromissos'>
+                                                
+                                                        <i class='fa-solid fa-pen-to-square'></i>
+
+                                                        <a href='dashboard.php?id=$dados_compromisso[id]'>
+                                                            <i class='fa-solid fa-check'></i>
+                                                        </a>
+                                                    </td>";
+                                        }
+                                    ?>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
 
                     <div class="vendas-semanais grafico-estilo">

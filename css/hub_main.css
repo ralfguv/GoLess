@@ -111,6 +111,25 @@ main .main-content .graficos .ultimas_vendas {
     grid-area: 1 / 2 / 1 / 2;
 } 
 
+.table_ultimas_vendas {
+    margin: 0 0 8px 0 !important;
+}
+
+.table_ultimas_vendas span{
+    font-size: 10px;
+}
+
+.table_ultimas_vendas td {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 10px;
+}
+
+.codigoPedido {
+    font-size: 15px !important;
+    font-weight: bold;
+}
+
 #myChart {
         width: 100% !important;
         height: 100% !important;
@@ -157,6 +176,58 @@ main .main-content .graficos .form-notas form {
 main .main-content .graficos .metas {
     grid-area: 1 / 3 / 3 / 3;
 } 
+
+main .main-content .txt_alinhamento_left {
+    justify-content: flex-start;
+} 
+
+main .main-content .metas .btn_plus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+} 
+
+.metas table tr{
+    margin-bottom: 0 !important;
+    
+    color:  #007bff;
+} 
+
+
+.time {
+    align-items: flex-start;
+    border-right: 1px solid black;
+}
+
+.time::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 101%;
+    margin-right: auto;
+}
+
+.event {
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.icones-compromissos {
+    display: flex !important;
+    gap: 15px !important;
+}
+
+main .main-content .graficos .header_title_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 main .main-content .graficos .header_title_cards span {
     padding: 10px;
